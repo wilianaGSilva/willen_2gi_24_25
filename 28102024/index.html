@@ -10,5 +10,35 @@ document.write("<h1>" + nome + "</h1>")
 
 <p> Este exemplo declara uma variável, dá um valor a essa variável, e mostra essa variável.</p>
 
+<h1>Praticando com variáveis!</h1>
+
+<script>
+    var nome = prompt("Insira o seu nome, por favor?");
+    var hora = prompt("Introduza a hora, por favor");
+
+if(hora < 12){
+document.write ("Bom dia. Seja bem vindo senhor(a) " + nome);}
+else {
+if(hora >= 14){
+document.write("Boa tarde. Seja bem vindo senhor(a) " + nome);}
+else{
+document.write("Seja bem vindo! Almoça connosco?");
+}}
+</script>
+<p id = "demo">Apresenta o resultado aqui!</p>
+
+<script>
+// Cria as variaveis aqui!
+
+document.getElementById("demo"). innerHTML =
+Nome + " " + Apelido + " tem " + idade;
+
+nome=prompt("Introduza o seu nome:", "Em maiúsculas");
+
+if( nome.legth >= 5 ){
+    document.write("O seu nome é bem longpo!");
+}
+</script>
+
 </body>
 </html>
