@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<head>
+<script>
+
+<p>Este exemplo chama a função que realiza uma operação e retorna o resultado:</p>
+~
+<p id="teste">Aqui será apresentado o resultado!</p>
+~
+<script>
+    function multiplicaFunc(a, b) {
+        return a * b;
+    }
+document.getElementById("teste").innerHTML = multiplicaFunc(5, 3);
+</script>
+
+function aminhaFunc() {
+    alert("Olá a todos!");
+}
+</script>
+</body>
+</head>
+
+<body>
+
+    <h2> A minha primeira função em JavaScript!</h2>
+    <button on click="aminhaFunc()">Experimenta</button>
+<script>
+
+var asuaIdade="";
+do
+{
+    asuaIdade = prompt("INTRODUZA A SUA IDADE!", "AQUI POR FAVOR!")
+}
+while (isNaN(asuaIdade)== true);
+    document.write("Muito bem a sua idade é de " + asuaIdade + " anos! ");
+var i=0;
+do
+{
+    i++;
+    document.write("O número é " + i);
+    document.write("<br/>");
+}
+while (i <=5);
+
+document.write("O valor devolvido pela a função é: ")
+document.write("<br/>");
+document.write("multiplicar(1, 2, 3, 4)=24")
+
+</script>
+</body>
+</html>
